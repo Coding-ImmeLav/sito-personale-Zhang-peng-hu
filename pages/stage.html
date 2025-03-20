@@ -6,9 +6,61 @@
     <title>Nome Cognome | Stage</title>
 
     <link rel="stylesheet" href="../style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-slash-fill" viewBox="0 0 16 16">
+                <path d="M5.164 14H15c-1.5-1-2-5.902-2-7q0-.396-.06-.776zm6.288-10.617A5 5 0 0 0 8.995 2.1a1 1 0 1 0-1.99 0A5 5 0 0 0 3 7c0 .898-.335 4.342-1.278 6.113zM10 15a2 2 0 1 1-4 0zm-9.375.625a.53.53 0 0 0 .75.75l14.75-14.75a.53.53 0 0 0-.75-.75z"/>
+            </svg>
+        </div>
+        <div class="nome">
+            Zhang
+        </div>
+        <div class="menu" onclick="compariMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </div>
+    </header>
+    <div id="menu">
+        <div class="menu lista">
+            <ul class="winky-sans">
+                <li>
+                    <a href="">Intro</a>
+                </li>
+                <li>
+                    <a href="">cv</a>
+                </li>
+                <li>
+                    <a href="">stage</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="benvenuto">
+            <h1 class="Boldonse">ciao, sono Zhang</h1>
+            <h3 class="winky-sans">operatore informatico</h3>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logoscuola">logo scuola</div>
+        <img class="imglogo" src="./img/download.png">
+
+        <div class="info">centro</div>
+        <a href="">
+            scrivimi una email
+        </a>
+
+        <div class="contatti">contatti</div>
+    </footer>
 
     <script src="../script.js"></script>
 </body>
