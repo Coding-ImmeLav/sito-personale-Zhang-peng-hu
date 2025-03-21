@@ -62,10 +62,20 @@ li{
 .imglogo{
     height: 80%;
 }
-.info{
+.info > a {
     text-decoration: none;
     background-color: darkcyan;
     color: white;
     padding: 10px 8px;
     border-radius: 10px;
+}
+
+span{
+    font-family: "Winky Sans", sans-serif;
+}
+
+footer > div {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
 }
